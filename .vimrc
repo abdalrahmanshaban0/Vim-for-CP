@@ -11,6 +11,7 @@ set termguicolors
 colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
 set background=dark
+set laststatus=2
 
 "Cursorline highlight
 set cursorline
@@ -37,10 +38,11 @@ call plug#begin()
   Plug 'preservim/nerdtree'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'Yggdroot/indentLine'
+  Plug 'itchyny/lightline.vim'
 call plug#end()
 
 "NerdTree
-autocmd VimEnter * NERDTree
+"autocmd VimEnter * NERDTree
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 let g:indentLine_char='|'
