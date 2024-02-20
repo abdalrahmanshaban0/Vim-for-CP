@@ -34,7 +34,7 @@ Note: You need to do some edit to files depending on using native Linux or WSL! 
 
 Key Bindings:
 To Build and Run ---> F9 <br>
-To Paste test cases in input.txt while in main ---> Ctrl + t <br>
+To Paste test cases in input.txt while in code file ---> Ctrl + t <br>
 To Close any splited tab ---> Ctrl + q <br>
 To Split a file from NERDTree ---> Ctrl + s <br>
 Auto Indent from what you stand to down ---> =G
