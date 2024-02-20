@@ -30,7 +30,10 @@ then paste:
 }
 ```
 
-Note: You need to do some edit to files depending on using native Linux or WSL! Just read the comments.
+Note: 
+``
+You need to comment and uncomment some lines in the files in case native Linux or WSL! Just read the comments.
+``
 
 Key Bindings:
 To Build and Run ---> F9 <br>
