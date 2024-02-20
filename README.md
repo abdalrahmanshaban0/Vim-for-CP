@@ -8,12 +8,12 @@ nodejs
 [vim-plug](https://github.com/junegunn/vim-plug)
 
 Write in vim: 
-'''
+```
 :CocConfig
-'''
+```
 
 then paste:
-'''
+```
 {
 "languageserver": {
   "ccls": {
@@ -28,7 +28,7 @@ then paste:
   }
 }
 }
-'''
+```
 
 Note: You need to do some edit to files depending on using native Linux or WSL! Just read the comments.
 
