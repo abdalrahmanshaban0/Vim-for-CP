@@ -22,7 +22,10 @@ def Past_Tests()
     :%d
     set autoread
     set autowrite
-    silent !xclip -o clipboard > input.txt
+    #for native Linux
+#    silent !xclip -o clipboard > input.txt
+    #for WSL
+    silent !powershell.exe Get-Clipboard > input.txt
     redraw!
     wincmd h
 enddef
