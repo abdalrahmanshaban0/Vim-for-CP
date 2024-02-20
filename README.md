@@ -2,10 +2,12 @@
 ![image](https://github.com/abdalrahmanshaban0/Vim-for-CP/assets/126330281/428cef6f-7dc2-47fd-88fd-f094f286cb8d)
 
 Dependancies:
+```
 g++
 ccls (Example in Debian: $ sudo apt install ccls)
 nodejs
 [vim-plug](https://github.com/junegunn/vim-plug)
+```
 
 Write in vim: 
 ```
