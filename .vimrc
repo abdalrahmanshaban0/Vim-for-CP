@@ -32,6 +32,12 @@ if executable(s:clip)
     augroup END
 endif
 
+"auto closeing
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
 
 "Spaces
 set shiftwidth=4
